@@ -41,18 +41,18 @@ dns:
         - https://dns.google/dns-query
         - https://cloudflare-dns.com/dns-query
 proxies:
-  - {"type":"vmess","name":"sg2.31vpn.com_1","ws-opts":{"path":"/fastssh/kjgdgsg/63499b27ccd2f/","headers":{"host":"sg2.31vpn.com"}},"server":"2606:4700:964e:e9f3:2575:df5d:94ea:7842","port":"443","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"us2.31vpn.com_1","ws-opts":{"path":"/fastssh/ddhdhhdc/63499b8f5a175/","headers":{"host":"us2.31vpn.com"}},"server":"2606:4700:9764:2d3:c3ab:8dd:2516:c5ef","port":"443","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sg2.31vpn.com_2","ws-opts":{"path":"/fastssh/kjgdgsg/63499b27ccd2f/","headers":{"host":"sg2.31vpn.com"}},"server":"2606:4700:83bd:9610:46c7:e5e:9f70:a763","port":"80","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"us2.31vpn.com_2","ws-opts":{"path":"/fastssh/ddhdhhdc/63499b8f5a175/","headers":{"host":"us2.31vpn.com"}},"server":"2606:4700:90d4:4fd8:566:7391:8582:1e6e","port":"80","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:83b6:1d07:8c7a:cdab:d074:8e56","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"wo.lirenyi.eu.org"}},"server":"2606:4700:9768:49a:24ca:854f:c585:7a3","port":"443","uuid":"30b5e219-fe33-48d5-bead-dffbb8d7f5c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"faji","ws-opts":{"path":"/","headers":{"host":"f.lirenyi.eu.org"}},"server":"2606:4700:9a66:f89c:ec40:2cb9:da4f:6de3","port":"8443","uuid":"b335f068-ae72-4813-8542-99e82fa401ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"woiden1","ws-opts":{"path":"/","headers":{"host":"w.lirenyi.eu.org"}},"server":"2606:4700:83b0:4714:544:28a6:3ff1:7c22","port":"443","uuid":"beb55256-fef3-4e59-8e4d-f38a09161786","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:91be:25ef:793a:51fa:8f9d:a91","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:90d2:b2e5:f48e:4930:fb13:c15b","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"euserv","ws-opts":{"path":"/","headers":{"host":"li.lirentian.eu.org"}},"server":"2606:4700:90c7:94ad:8d91:805e:5b5b:44e7","port":"443","uuid":"56e3832f-ee1b-45b9-e73e-96ae6fef166b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"faji1","ws-opts":{"path":"/","headers":{"host":"ff.lirenyi.eu.org"}},"server":"2606:4700:9c6a:ab3c:a12c:6304:3e82:490f","port":"8443","uuid":"07a5f279-c197-4ba0-f29f-242c8acc4a71","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"sg2.31vpn.com_1","ws-opts":{"path":"/fastssh/kjgdgsg/63499b27ccd2f/","headers":{"host":"sg2.31vpn.com"}},"server":"2606:4700:9a60:ea67:4052:d93e:9486:8591","port":"80","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"sg2.31vpn.com_2","ws-opts":{"path":"/fastssh/kjgdgsg/63499b27ccd2f/","headers":{"host":"sg2.31vpn.com"}},"server":"2606:4700:9ae2:1f71:1dc5:be9c:643b:619a","port":"443","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"us2.31vpn.com_1","ws-opts":{"path":"/fastssh/ddhdhhdc/63499b8f5a175/","headers":{"host":"us2.31vpn.com"}},"server":"2606:4700:90d3:c0b8:bcc9:b15a:94bf:835","port":"443","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"us2.31vpn.com_2","ws-opts":{"path":"/fastssh/ddhdhhdc/63499b8f5a175/","headers":{"host":"us2.31vpn.com"}},"server":"2606:4700:9c63:16de:7763:38c1:b183:a990","port":"80","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"faji","ws-opts":{"path":"/","headers":{"host":"f.lirenyi.eu.org"}},"server":"2606:4700:f4:ac21:b87c:ac81:84df:f855","port":"8443","uuid":"b335f068-ae72-4813-8542-99e82fa401ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:9641:772f:e972:1e4d:f46c:5d45","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:9a62:e6e2:85d8:74a4:acaa:685a","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"euserv","ws-opts":{"path":"/","headers":{"host":"li.lirentian.eu.org"}},"server":"2606:4700:9761:26b0:2a33:b9e3:e925:2ebe","port":"443","uuid":"56e3832f-ee1b-45b9-e73e-96ae6fef166b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"woiden1","ws-opts":{"path":"/","headers":{"host":"w.lirenyi.eu.org"}},"server":"2606:4700:91b3:13ea:92c2:75b2:fefd:f2ac","port":"443","uuid":"beb55256-fef3-4e59-8e4d-f38a09161786","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"wo.lirenyi.eu.org"}},"server":"2606:4700:90c1:7752:c4e5:b6a7:39fa:3ae3","port":"443","uuid":"30b5e219-fe33-48d5-bead-dffbb8d7f5c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9ae0:bb59:6eb8:4db3:d257:cdf3","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"faji1","ws-opts":{"path":"/","headers":{"host":"ff.lirenyi.eu.org"}},"server":"2606:4700:9ad2:186b:f846:d2d0:e96a:19e7","port":"8443","uuid":"07a5f279-c197-4ba0-f29f-242c8acc4a71","alterId":"0","cipher":"auto","network":"ws","tls":true}
  
 proxy-groups:
   - name: 🚀 节点选择
@@ -62,16 +62,16 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - sg2.31vpn.com_1
-      - us2.31vpn.com_1
       - sg2.31vpn.com_2
+      - us2.31vpn.com_1
       - us2.31vpn.com_2
-      - hax1
-      - woiden
       - faji
-      - woiden1
+      - hax1
       - koyeb
-      - hax
       - euserv
+      - woiden1
+      - woiden
+      - hax
       - faji1
   - name: ♻️ 自动选择
     type: url-test
@@ -80,16 +80,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - sg2.31vpn.com_1
-      - us2.31vpn.com_1
       - sg2.31vpn.com_2
+      - us2.31vpn.com_1
       - us2.31vpn.com_2
-      - hax1
-      - woiden
       - faji
-      - woiden1
+      - hax1
       - koyeb
-      - hax
       - euserv
+      - woiden1
+      - woiden
+      - hax
       - faji1
   - name: 🔯 故障转移
     type: fallback
@@ -97,16 +97,16 @@ proxy-groups:
     interval: 180
     proxies:
       - sg2.31vpn.com_1
-      - us2.31vpn.com_1
       - sg2.31vpn.com_2
+      - us2.31vpn.com_1
       - us2.31vpn.com_2
-      - hax1
-      - woiden
       - faji
-      - woiden1
+      - hax1
       - koyeb
-      - hax
       - euserv
+      - woiden1
+      - woiden
+      - hax
       - faji1
   - name: 🔮 负载均衡
     type: load-balance
@@ -114,16 +114,16 @@ proxy-groups:
     interval: 180
     proxies:
       - sg2.31vpn.com_1
-      - us2.31vpn.com_1
       - sg2.31vpn.com_2
+      - us2.31vpn.com_1
       - us2.31vpn.com_2
-      - hax1
-      - woiden
       - faji
-      - woiden1
+      - hax1
       - koyeb
-      - hax
       - euserv
+      - woiden1
+      - woiden
+      - hax
       - faji1
   - name: 🎯 全球直连
     type: select
@@ -145,16 +145,16 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - sg2.31vpn.com_1
-      - us2.31vpn.com_1
       - sg2.31vpn.com_2
+      - us2.31vpn.com_1
       - us2.31vpn.com_2
-      - hax1
-      - woiden
       - faji
-      - woiden1
+      - hax1
       - koyeb
-      - hax
       - euserv
+      - woiden1
+      - woiden
+      - hax
       - faji1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
