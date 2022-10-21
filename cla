@@ -41,6 +41,12 @@ dns:
         - https://dns.google/dns-query
         - https://cloudflare-dns.com/dns-query
 proxies:
+  - {"type":"vmess","name":"🇸🇬Linode月抛-新加坡","ws-opts":{"path":"/fqiyvws","headers":{"host":"linode.noobcxk.cf"}},"server":"linode.noobcxk.cf","port":"443","uuid":"e87cf737-f00d-47eb-9714-10e07a3a0899","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬甲骨文-新加坡-AMD","ws-opts":{"path":"/vcvlvws","headers":{"host":"sgamd.noobcxk.cf"}},"server":"[2606:4700:90c7:79b2:df0f:e4ce:46bb:4cd7]","port":"443","uuid":"f30977e1-3c65-9ba0-685d-ddc3c5c5ec5e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵甲骨文-大阪-ARM","ws-opts":{"path":"/qbylvws","headers":{"host":"dabanarm.noobcxk.cf"}},"server":"[2606:4700:90cd:69dc:85b8:f89f:54b8:124a]","port":"443","uuid":"5d8fe07d-2801-4194-833e-c22e1ec7d117","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇰🇷AZ-Korea","ws-opts":{"path":"/xdevvws","headers":{"host":"azkorea.noobcxk.cf"}},"server":"azkorea.noobcxk.cf","port":"443","uuid":"99225a99-bff4-f9a0-f674-8b8a10580289","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬DO-新加坡","ws-opts":{"path":"/cdisvws","headers":{"host":"dosg.noobcxk.cf"}},"server":"[2606:4700:99e5:2147:424c:ea7c:4062:9170]","port":"443","uuid":"9dbcffe2-41ad-46ef-a699-ab4d80623ca4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"25","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"1","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"2","ws-opts":{"path":"/ray","headers":{"host":"www.netscrazy.com"}},"server":"www.netscrazy.com","port":"9943","uuid":"62af11cc-4bc1-11ed-906b-000d3a82ddf9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -57,6 +63,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🇸🇬甲骨文-新加坡-AMD
+      - 🇯🇵甲骨文-大阪-ARM
+      - 🇰🇷AZ-Korea
+      - 🇸🇬DO-新加坡
+      - 25
       - 1
       - 2
       - hax1
@@ -71,6 +82,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬甲骨文-新加坡-AMD
+      - 🇯🇵甲骨文-大阪-ARM
+      - 🇰🇷AZ-Korea
+      - 🇸🇬DO-新加坡
+      - 25
       - 1
       - 2
       - hax1
@@ -84,6 +100,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇸🇬甲骨文-新加坡-AMD
+      - 🇯🇵甲骨文-大阪-ARM
+      - 🇰🇷AZ-Korea
+      - 🇸🇬DO-新加坡
+      - 25
       - 1
       - 2
       - hax1
@@ -97,6 +118,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇸🇬甲骨文-新加坡-AMD
+      - 🇯🇵甲骨文-大阪-ARM
+      - 🇰🇷AZ-Korea
+      - 🇸🇬DO-新加坡
+      - 25
       - 1
       - 2
       - hax1
@@ -124,6 +150,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🇸🇬甲骨文-新加坡-AMD
+      - 🇯🇵甲骨文-大阪-ARM
+      - 🇰🇷AZ-Korea
+      - 🇸🇬DO-新加坡
+      - 25
       - 1
       - 2
       - hax1
