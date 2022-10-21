@@ -41,10 +41,7 @@ dns:
         - https://dns.google/dns-query
         - https://cloudflare-dns.com/dns-query
 proxies:
-  - {"type":"vmess","name":"sg2.31vpn.com_1","ws-opts":{"path":"/fastssh/kjgdgsg/63499b27ccd2f/","headers":{"host":"sg2.31vpn.com"}},"server":"2606:4700:9c61:d1ec:3bb2:6ad8:691b:c4c6","port":"443","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"sg2.31vpn.com_2","ws-opts":{"path":"/fastssh/kjgdgsg/63499b27ccd2f/","headers":{"host":"sg2.31vpn.com"}},"server":"2606:4700:976b:a79:3ed8:97de:ba82:ad51","port":"80","uuid":"dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"us2.31vpn.com_1","ws-opts":{"path":"/fastssh/ddhdhhdc/63499b8f5a175/","headers":{"host":"us2.31vpn.com"}},"server":"2606:4700:9b03:93f4:3842:7973:eaaa:e5cd","port":"80","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"us2.31vpn.com_2","ws-opts":{"path":"/fastssh/ddhdhhdc/63499b8f5a175/","headers":{"host":"us2.31vpn.com"}},"server":"2606:4700:83b9:ea1f:9381:3294:f479:b0a3","port":"443","uuid":"bb4b9e95-c9ff-411c-9a47-483570e169aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+ - {"type":"vmess","name":"1","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -59,10 +56,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - sg2.31vpn.com_1
-      - sg2.31vpn.com_2
-      - us2.31vpn.com_1
-      - us2.31vpn.com_2
+      - 1
+      - haxh
+      - haxh1
+      - woidenh
+      - woidenh1
+      - euservh
       - hax1
       - hax
       - koyeb
@@ -75,10 +74,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - sg2.31vpn.com_1
-      - sg2.31vpn.com_2
-      - us2.31vpn.com_1
-      - us2.31vpn.com_2
+      - 1
+      - haxh
+      - haxh1
+      - woidenh
+      - woidenh1
+      - euservh
       - hax1
       - hax
       - koyeb
@@ -90,10 +91,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - sg2.31vpn.com_1
-      - sg2.31vpn.com_2
-      - us2.31vpn.com_1
-      - us2.31vpn.com_2
+      - 1
+      - haxh
+      - haxh1
+      - woidenh
+      - woidenh1
+      - euservh
       - hax1
       - hax
       - koyeb
@@ -105,10 +108,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - sg2.31vpn.com_1
-      - sg2.31vpn.com_2
-      - us2.31vpn.com_1
-      - us2.31vpn.com_2
+      - 1
+      - haxh
+      - haxh1
+      - woidenh
+      - woidenh1
+      - euservh
       - hax1
       - hax
       - koyeb
@@ -134,10 +139,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - sg2.31vpn.com_1
-      - sg2.31vpn.com_2
-      - us2.31vpn.com_1
-      - us2.31vpn.com_2
+      - 1
+      - haxh
+      - haxh1
+      - woidenh
+      - woidenh1
+      - euservh
       - hax1
       - hax
       - koyeb
