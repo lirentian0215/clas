@@ -41,7 +41,8 @@ dns:
         - https://dns.google/dns-query
         - https://cloudflare-dns.com/dns-query
 proxies:
- - {"type":"vmess","name":"1","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"1","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"2","ws-opts":{"path":"/ray","headers":{"host":"www.netscrazy.com"}},"server":"www.netscrazy.com","port":"9943","uuid":"62af11cc-4bc1-11ed-906b-000d3a82ddf9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -57,6 +58,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 1
+      - 2
       - haxh
       - haxh1
       - woidenh
@@ -75,6 +77,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 1
+      - 2
       - haxh
       - haxh1
       - woidenh
@@ -92,6 +95,7 @@ proxy-groups:
     interval: 180
     proxies:
       - 1
+      - 2
       - haxh
       - haxh1
       - woidenh
@@ -109,6 +113,7 @@ proxy-groups:
     interval: 180
     proxies:
       - 1
+      - 2
       - haxh
       - haxh1
       - woidenh
@@ -140,6 +145,7 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - 1
+      - 2
       - haxh
       - haxh1
       - woidenh
