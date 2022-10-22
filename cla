@@ -45,10 +45,13 @@ proxies:
   - {"type":"vmess","name":"🇸🇬甲骨文-新加坡-AMD","ws-opts":{"path":"/vcvlvws","headers":{"host":"sgamd.noobcxk.cf"}},"server":"2606:4700:90c7:79b2:df0f:e4ce:46bb:4cd7","port":"443","uuid":"f30977e1-3c65-9ba0-685d-ddc3c5c5ec5e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇯🇵甲骨文-大阪-ARM","ws-opts":{"path":"/qbylvws","headers":{"host":"dabanarm.noobcxk.cf"}},"server":"2606:4700:90cd:69dc:85b8:f89f:54b8:124a","port":"443","uuid":"5d8fe07d-2801-4194-833e-c22e1ec7d117","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇰🇷AZ-Korea","ws-opts":{"path":"/xdevvws","headers":{"host":"azkorea.noobcxk.cf"}},"server":"azkorea.noobcxk.cf","port":"443","uuid":"99225a99-bff4-f9a0-f674-8b8a10580289","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬DO-新加坡","ws-opts":{"path":"/cdisvws","headers":{"host":"dosg.noobcxk.cf"}},"server":"[2606:4700:99e5:2147:424c:ea7c:4062:9170]","port":"443","uuid":"9dbcffe2-41ad-46ef-a699-ab4d80623ca4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"25","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"1","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"2","ws-opts":{"path":"/ray","headers":{"host":"www.netscrazy.com"}},"server":"www.netscrazy.com","port":"9943","uuid":"62af11cc-4bc1-11ed-906b-000d3a82ddf9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬DO-新加坡","ws-opts":{"path":"/cdisvws","headers":{"host":"dosg.noobcxk.cf"}},"server":"2606:4700:99e5:2147:424c:ea7c:4062:9170","port":"443","uuid":"9dbcffe2-41ad-46ef-a699-ab4d80623ca4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"1","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:9ad7:f749:80bf:79b:3113:b25a","port":"2096","uuid":"d1addfc2-d583-41f5-96f7-557cb78fb611","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"2","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90d4:cf72:72e5:f386:f859:e014","port":"2096","uuid":"24fae3b2-8b26-4aff-87f3-651c25a009b5","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"3","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90dd:afd1:9585:3651:b685:f437","port":"2096","uuid":"679ab638-792d-49dd-97df-d9a929217607","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"4","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90c0:2730:c78f:c0aa:62c6:c10c","port":"2096","uuid":"c4b381a1-ecf1-4246-a825-2b292b1bf4b4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"5","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"6","ws-opts":{"path":"/ray","headers":{"host":"www.netscrazy.com"}},"server":"www.netscrazy.com","port":"9943","uuid":"62af11cc-4bc1-11ed-906b-000d3a82ddf9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -68,9 +71,12 @@ proxy-groups:
       - 🇯🇵甲骨文-大阪-ARM
       - 🇰🇷AZ-Korea
       - 🇸🇬DO-新加坡
-      - 25
       - 1
       - 2
+      - 3
+      - 4
+      - 5
+      - 6
       - hax1
       - hax
       - koyeb
@@ -88,9 +94,12 @@ proxy-groups:
       - 🇯🇵甲骨文-大阪-ARM
       - 🇰🇷AZ-Korea
       - 🇸🇬DO-新加坡
-      - 25
       - 1
       - 2
+      - 3
+      - 4
+      - 5
+      - 6
       - hax1
       - hax
       - koyeb
@@ -107,9 +116,12 @@ proxy-groups:
       - 🇯🇵甲骨文-大阪-ARM
       - 🇰🇷AZ-Korea
       - 🇸🇬DO-新加坡
-      - 25
       - 1
       - 2
+      - 3
+      - 4
+      - 5
+      - 6
       - hax1
       - hax
       - koyeb
@@ -126,9 +138,12 @@ proxy-groups:
       - 🇯🇵甲骨文-大阪-ARM
       - 🇰🇷AZ-Korea
       - 🇸🇬DO-新加坡
-      - 25
       - 1
       - 2
+      - 3
+      - 4
+      - 5
+      - 6
       - hax1
       - hax
       - koyeb
@@ -159,9 +174,12 @@ proxy-groups:
       - 🇯🇵甲骨文-大阪-ARM
       - 🇰🇷AZ-Korea
       - 🇸🇬DO-新加坡
-      - 25
       - 1
       - 2
+      - 3
+      - 4
+      - 5
+      - 6
       - hax1
       - hax
       - koyeb
