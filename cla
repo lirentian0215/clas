@@ -41,6 +41,10 @@ dns:
         - https://dns.google/dns-query
         - https://cloudflare-dns.com/dns-query
 proxies:
+  - {"type":"vmess","name":"netflixip","ws-opts":{"path":"/gceevws","headers":{"host":"www.xt000.xyz"}},"server":"www.xt000.xyz","port":"443","uuid":"80782eff-e3fe-fc69-37cd-7efd760adf91","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"netflix","ws-opts":{"path":"/1TpqeX","headers":{"host":"xt000.xyz"}},"server":"xt000.xyz","port":"443","uuid":"17a58fef-cf3f-42fe-b76a-76b592dc98ee","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray","server":"20.205.60.175","port":"59631","uuid":"34945a21-2c4e-4418-90ac-4f7ca4fdccde","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"v2ray_ap","server":"20.205.60.175","port":"59631","uuid":"34945a21-2c4e-4418-90ac-4f7ca4fdccde","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇸🇬Linode月抛-新加坡","ws-opts":{"path":"/fqiyvws","headers":{"host":"linode.noobcxk.cf"}},"server":"2606:4700:9b08:fe9c:5729:2d43:a6db:b794","port":"443","uuid":"e87cf737-f00d-47eb-9714-10e07a3a0899","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇸🇬甲骨文-新加坡-AMD","ws-opts":{"path":"/vcvlvws","headers":{"host":"sgamd.noobcxk.cf"}},"server":"2606:4700:90c7:79b2:df0f:e4ce:46bb:4cd7","port":"443","uuid":"f30977e1-3c65-9ba0-685d-ddc3c5c5ec5e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇯🇵甲骨文-大阪-ARM","ws-opts":{"path":"/qbylvws","headers":{"host":"dabanarm.noobcxk.cf"}},"server":"2606:4700:90cd:69dc:85b8:f89f:54b8:124a","port":"443","uuid":"5d8fe07d-2801-4194-833e-c22e1ec7d117","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -79,6 +83,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - netflixip
+      - netflix
+      - v2ray
+      - v2ray_ap
       - 🇸🇬Linode月抛-新加坡
       - 🇸🇬甲骨文-新加坡-AMD
       - 🇯🇵甲骨文-大阪-ARM
@@ -115,6 +123,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - netflixip
+      - netflix
+      - v2ray
+      - v2ray_ap
       - 🇸🇬Linode月抛-新加坡
       - 🇸🇬甲骨文-新加坡-AMD
       - 🇯🇵甲骨文-大阪-ARM
@@ -150,6 +162,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - netflixip
+      - netflix
+      - v2ray
+      - v2ray_ap
       - 🇸🇬Linode月抛-新加坡
       - 🇸🇬甲骨文-新加坡-AMD
       - 🇯🇵甲骨文-大阪-ARM
@@ -185,6 +201,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - netflixip
+      - netflix
+      - v2ray
+      - v2ray_ap
       - 🇸🇬Linode月抛-新加坡
       - 🇸🇬甲骨文-新加坡-AMD
       - 🇯🇵甲骨文-大阪-ARM
@@ -234,6 +254,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - netflixip
+      - netflix
+      - v2ray
+      - v2ray_ap
       - 🇸🇬Linode月抛-新加坡
       - 🇸🇬甲骨文-新加坡-AMD
       - 🇯🇵甲骨文-大阪-ARM
