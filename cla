@@ -58,7 +58,7 @@ proxies:
         mode: tls
         host: www.microsoft.com  
   - {"type":"vmess","name":"DO","ws-opts":{"path":"/u/opentunnel.net-belok","headers":{"host":"sgv-3.openv2ray.com"}},"server":"172.64.153.66","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"OVH","ws-opts":{"path":"/u/opentunnel.net-belok","headers":{"host":"sgv-5.openv2ray.com"}},"server":"172.64.153.66","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"OVH","ws-opts":{"path":"/u/opentunnel.net-belok","headers":{"host":"sgv-5.openv2ray.com"}},"server":"172.64.159.26","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"tomato1","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.145.2","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"tomato4","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.156.47","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"tomato9","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.153.66","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
