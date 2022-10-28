@@ -41,40 +41,24 @@ dns:
         - https://dns.google/dns-query
         - https://cloudflare-dns.com/dns-query
 proxies:
-  - {"type":"vmess","name":"🇸🇬Linode月抛-新加坡","ws-opts":{"path":"/fqiyvws","headers":{"host":"linode.noobcxk.cf"}},"server":"2606:4700:9b08:fe9c:5729:2d43:a6db:b794","port":"443","uuid":"e87cf737-f00d-47eb-9714-10e07a3a0899","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬甲骨文-新加坡-AMD","ws-opts":{"path":"/vcvlvws","headers":{"host":"sgamd.noobcxk.cf"}},"server":"2606:4700:90c7:79b2:df0f:e4ce:46bb:4cd7","port":"443","uuid":"f30977e1-3c65-9ba0-685d-ddc3c5c5ec5e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇯🇵甲骨文-大阪-ARM","ws-opts":{"path":"/qbylvws","headers":{"host":"dabanarm.noobcxk.cf"}},"server":"2606:4700:90cd:69dc:85b8:f89f:54b8:124a","port":"443","uuid":"5d8fe07d-2801-4194-833e-c22e1ec7d117","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇰🇷AZ-Korea","ws-opts":{"path":"/xdevvws","headers":{"host":"azkorea.noobcxk.cf"}},"server":"azkorea.noobcxk.cf","port":"443","uuid":"99225a99-bff4-f9a0-f674-8b8a10580289","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬DO-新加坡","ws-opts":{"path":"/cdisvws","headers":{"host":"dosg.noobcxk.cf"}},"server":"2606:4700:99e5:2147:424c:ea7c:4062:9170","port":"443","uuid":"9dbcffe2-41ad-46ef-a699-ab4d80623ca4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"2222","server":"jpp.samvpn.xyz","port":443,"password":"Sam123321","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Youtube2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9ad7:1a06:6fec:534a:17f2:b851","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Youtube","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9649:e61c:7320:cf96:39b:3171","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Youtube4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9ad3:3c9b:7dd7:77c6:eac8:7b54","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_2","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:9a6b:ac33:8164:d988:7a2e:d171","port":"2096","uuid":"d3a81ae0-baa2-4d19-b27f-2ff9796bf314","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_1","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:9aeb:9063:9540:ba0:e9b2:98a4","port":"2096","uuid":"d1addfc2-d583-41f5-96f7-557cb78fb611","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"4444","server":"samkr.xyz","port":443,"password":"Sam123321","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"netflixip","ws-opts":{"path":"/gceevws","headers":{"host":"www.xt000.xyz"}},"server":"www.xt000.xyz","port":"443","uuid":"80782eff-e3fe-fc69-37cd-7efd760adf91","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"国际ssthy.com|x0.1","ws-opts":{"path":"/hls","headers":{"host":"us.domain.com"}},"server":"sd2.cmcuct.org","port":"24402","uuid":"d459c8f1-5dd8-379d-9e81-890184b529d3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"国内ssthy.net|x0.3","ws-opts":{"path":"/download","headers":{"host":"us.domain.com"}},"server":"s400l.cmcuct.org","port":"24488","uuid":"d459c8f1-5dd8-379d-9e81-890184b529d3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vmess+ws+tls","ws-opts":{"path":"/8bcc69e6-3986-4bd8-f90b-1ef3ecd36ea0","headers":{"host":"ss.xnyky.xyz"}},"server":"ss.xnyky.xyz","port":"443","uuid":"8bcc69e6-3986-4bd8-f90b-1ef3ecd36ea0","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"netflix","ws-opts":{"path":"/1TpqeX","headers":{"host":"xt000.xyz"}},"server":"xt000.xyz","port":"443","uuid":"17a58fef-cf3f-42fe-b76a-76b592dc98ee","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray","server":"20.205.60.175","port":"59631","uuid":"34945a21-2c4e-4418-90ac-4f7ca4fdccde","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2ray_ap","server":"20.205.60.175","port":"59631","uuid":"34945a21-2c4e-4418-90ac-4f7ca4fdccde","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:8443_4","ws-opts":{"path":"/H8VswtUJ/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"2606:4700:90cd:c6a1:a180:5be7:ce7a:32f5","port":"8443","uuid":"456decff-4a56-429c-8133-213d0ced6678","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_2","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:9aed:b742:a84c:969e:fff1:2715","port":"2096","uuid":"d3a81ae0-baa2-4d19-b27f-2ff9796bf314","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:8443_5","ws-opts":{"path":"/H8VswtUJ/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"2606:4700:9b0e:6adb:d7a8:b85b:661b:1ebd","port":"8443","uuid":"36936d2e-00f2-4058-9e96-06098355d056","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_5","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:9c66:4577:a7be:7bac:88ea:d212","port":"2096","uuid":"679ab638-792d-49dd-97df-d9a929217607","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_3","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:91be:6c1c:2ee2:a4e7:ab88:162","port":"2096","uuid":"c4b381a1-ecf1-4246-a825-2b292b1bf4b4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_4","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90cd:856d:b2d4:646c:2c78:f880","port":"2096","uuid":"24fae3b2-8b26-4aff-87f3-651c25a009b5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:8443_2","ws-opts":{"path":"/H8VswtUJ/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"2606:4700:9adb:e5fd:45d:4f48:590b:f6e","port":"8443","uuid":"0ec34395-7d2a-45dc-b21f-0736bc68b659","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:8443_3","ws-opts":{"path":"/H8VswtUJ/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"2606:4700:9640:282:7cf1:4cee:a8f6:2308","port":"8443","uuid":"22b7bc2d-d572-4fa0-8048-4168155d468e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:8443_1","ws-opts":{"path":"/H8VswtUJ/","headers":{"host":"v2ray.wefuckgfw.ga"}},"server":"2606:4700:9aeb:c9db:fba0:a91e:59c9:702","port":"8443","uuid":"e7e2678c-e24b-4fa1-9419-390a5aa12cdb","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_1","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:91b6:7726:eb7e:593a:b3db:b44f","port":"2096","uuid":"d1addfc2-d583-41f5-96f7-557cb78fb611","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"0","ws-opts":{"path":"/ray","headers":{"host":"www.netscrazy.com"}},"server":"www.netscrazy.com","port":"9943","uuid":"62af11cc-4bc1-11ed-906b-000d3a82ddf9","alterId":"0","cipher":"auto","network":"ws","tls":true} 
-  - {"type":"vmess","name":"1","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:9ad7:f749:80bf:79b:3113:b25a","port":"2096","uuid":"d1addfc2-d583-41f5-96f7-557cb78fb611","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"2","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90d4:cf72:72e5:f386:f859:e014","port":"2096","uuid":"24fae3b2-8b26-4aff-87f3-651c25a009b5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"3","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90dd:afd1:9585:3651:b685:f437","port":"2096","uuid":"679ab638-792d-49dd-97df-d9a929217607","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"4","ws-opts":{"path":"/Nsy6wz4A/","headers":{"host":"v2ray.wefuckgfw.gq"}},"server":"2606:4700:90c0:2730:c78f:c0aa:62c6:c10c","port":"2096","uuid":"c4b381a1-ecf1-4246-a825-2b292b1bf4b4","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"5","server":"iplc-hu-ri1.ddns1.pw","port":"10450","uuid":"e7540fa7-e37c-3b05-851f-a0a800cd7454","alterId":"2","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"6","ws-opts":{"path":"/ray","headers":{"host":"www.netscrazy.com"}},"server":"www.netscrazy.com","port":"9943","uuid":"62af11cc-4bc1-11ed-906b-000d3a82ddf9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"woiden1","ws-opts":{"path":"/","headers":{"host":"w.lirenyi.eu.org"}},"server":"2606:4700:99e9:3a7c:9afb:43b3:eb20:53f8","port":"443","uuid":"a83bf078-36ca-40a1-b958-40a3a10c92b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"wo.lirenyi.eu.org"}},"server":"2606:4700:90c1:ef7d:effd:33df:59c2:466f","port":"443","uuid":"30b5e219-fe33-48d5-bead-dffbb8d7f5c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"euserv","ws-opts":{"path":"/","headers":{"host":"li.lirentian.eu.org"}},"server":"2606:4700:8ca9:f541:9fe6:7844:5b18:7671","port":"443","uuid":"56e3832f-ee1b-45b9-e73e-96ae6fef166b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"wo.lirenyi.eu.org"}},"server":"2606:4700:9b08:fe9c:5729:2d43:a6db:b794","port":"443","uuid":"30b5e219-fe33-48d5-bead-dffbb8d7f5c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
  
 proxy-groups:
   - name: 🚀 节点选择
@@ -83,33 +67,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇸🇬Linode月抛-新加坡
-      - 🇸🇬甲骨文-新加坡-AMD
-      - 🇯🇵甲骨文-大阪-ARM
-      - 🇰🇷AZ-Korea
-      - 🇸🇬DO-新加坡
-      - 2222
-      - 4444
-      - netflixip
-      - netflix
-      - v2ray
-      - v2ray_ap
-      - v2ray.wefuckgfw.ga:8443_4
+      - Youtube2
+      - Youtube
+      - Youtube4
       - v2ray.wefuckgfw.gq:2096_2
-      - v2ray.wefuckgfw.ga:8443_5
-      - v2ray.wefuckgfw.gq:2096_5
-      - v2ray.wefuckgfw.gq:2096_3
-      - v2ray.wefuckgfw.gq:2096_4
-      - v2ray.wefuckgfw.ga:8443_2
-      - v2ray.wefuckgfw.ga:8443_3
-      - v2ray.wefuckgfw.ga:8443_1
       - v2ray.wefuckgfw.gq:2096_1
+      - 4444
+      - 国际ssthy.com|x0.1
+      - 国内ssthy.net|x0.3
+      - vmess+ws+tls
+      - netflix
       - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
       - 6
       - hax1
       - hax
@@ -123,33 +91,17 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬Linode月抛-新加坡
-      - 🇸🇬甲骨文-新加坡-AMD
-      - 🇯🇵甲骨文-大阪-ARM
-      - 🇰🇷AZ-Korea
-      - 🇸🇬DO-新加坡
-      - 2222
-      - 4444
-      - netflixip
-      - netflix
-      - v2ray
-      - v2ray_ap
-      - v2ray.wefuckgfw.ga:8443_4
+      - Youtube2
+      - Youtube
+      - Youtube4
       - v2ray.wefuckgfw.gq:2096_2
-      - v2ray.wefuckgfw.ga:8443_5
-      - v2ray.wefuckgfw.gq:2096_5
-      - v2ray.wefuckgfw.gq:2096_3
-      - v2ray.wefuckgfw.gq:2096_4
-      - v2ray.wefuckgfw.ga:8443_2
-      - v2ray.wefuckgfw.ga:8443_3
-      - v2ray.wefuckgfw.ga:8443_1
       - v2ray.wefuckgfw.gq:2096_1
+      - 4444
+      - 国际ssthy.com|x0.1
+      - 国内ssthy.net|x0.3
+      - vmess+ws+tls
+      - netflix
       - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
       - 6
       - hax1
       - hax
@@ -162,33 +114,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇸🇬Linode月抛-新加坡
-      - 🇸🇬甲骨文-新加坡-AMD
-      - 🇯🇵甲骨文-大阪-ARM
-      - 🇰🇷AZ-Korea
-      - 🇸🇬DO-新加坡
-      - 2222
-      - 4444
-      - netflixip
-      - netflix
-      - v2ray
-      - v2ray_ap
-      - v2ray.wefuckgfw.ga:8443_4
+      - Youtube2
+      - Youtube
+      - Youtube4
       - v2ray.wefuckgfw.gq:2096_2
-      - v2ray.wefuckgfw.ga:8443_5
-      - v2ray.wefuckgfw.gq:2096_5
-      - v2ray.wefuckgfw.gq:2096_3
-      - v2ray.wefuckgfw.gq:2096_4
-      - v2ray.wefuckgfw.ga:8443_2
-      - v2ray.wefuckgfw.ga:8443_3
-      - v2ray.wefuckgfw.ga:8443_1
       - v2ray.wefuckgfw.gq:2096_1
+      - 4444
+      - 国际ssthy.com|x0.1
+      - 国内ssthy.net|x0.3
+      - vmess+ws+tls
+      - netflix
       - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
       - 6
       - hax1
       - hax
@@ -201,33 +137,17 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇸🇬Linode月抛-新加坡
-      - 🇸🇬甲骨文-新加坡-AMD
-      - 🇯🇵甲骨文-大阪-ARM
-      - 🇰🇷AZ-Korea
-      - 🇸🇬DO-新加坡
-      - 2222
-      - 4444
-      - netflixip
-      - netflix
-      - v2ray
-      - v2ray_ap
-      - v2ray.wefuckgfw.ga:8443_4
+      - Youtube2
+      - Youtube
+      - Youtube4
       - v2ray.wefuckgfw.gq:2096_2
-      - v2ray.wefuckgfw.ga:8443_5
-      - v2ray.wefuckgfw.gq:2096_5
-      - v2ray.wefuckgfw.gq:2096_3
-      - v2ray.wefuckgfw.gq:2096_4
-      - v2ray.wefuckgfw.ga:8443_2
-      - v2ray.wefuckgfw.ga:8443_3
-      - v2ray.wefuckgfw.ga:8443_1
       - v2ray.wefuckgfw.gq:2096_1
+      - 4444
+      - 国际ssthy.com|x0.1
+      - 国内ssthy.net|x0.3
+      - vmess+ws+tls
+      - netflix
       - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
       - 6
       - hax1
       - hax
@@ -254,33 +174,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇸🇬Linode月抛-新加坡
-      - 🇸🇬甲骨文-新加坡-AMD
-      - 🇯🇵甲骨文-大阪-ARM
-      - 🇰🇷AZ-Korea
-      - 🇸🇬DO-新加坡
-      - 2222
-      - 4444
-      - netflixip
-      - netflix
-      - v2ray
-      - v2ray_ap
-      - v2ray.wefuckgfw.ga:8443_4
+      - Youtube2
+      - Youtube
+      - Youtube4
       - v2ray.wefuckgfw.gq:2096_2
-      - v2ray.wefuckgfw.ga:8443_5
-      - v2ray.wefuckgfw.gq:2096_5
-      - v2ray.wefuckgfw.gq:2096_3
-      - v2ray.wefuckgfw.gq:2096_4
-      - v2ray.wefuckgfw.ga:8443_2
-      - v2ray.wefuckgfw.ga:8443_3
-      - v2ray.wefuckgfw.ga:8443_1
       - v2ray.wefuckgfw.gq:2096_1
+      - 4444
+      - 国际ssthy.com|x0.1
+      - 国内ssthy.net|x0.3
+      - vmess+ws+tls
+      - netflix
       - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
       - 6
       - hax1
       - hax
