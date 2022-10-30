@@ -194,7 +194,6 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - vmess+ws+tls
       - hax1
       - hax
       - koyeb
