@@ -66,7 +66,6 @@ proxies:
   - {"type":"vmess","name":"Youtube","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9649:e61c:7320:cf96:39b:3171","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"Youtube4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9ad3:3c9b:7dd7:77c6:eac8:7b54","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"2222","server":"jpp.samvpn.xyz","port":443,"password":"Sam123321","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"vmess+ws+tls","ws-opts":{"path":"/8bcc69e6-3986-4bd8-f90b-1ef3ecd36ea0","headers":{"host":"ss.xnyky.xyz"}},"server":"ss.xnyky.xyz","port":"443","uuid":"8bcc69e6-3986-4bd8-f90b-1ef3ecd36ea0","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"woiden1","ws-opts":{"path":"/","headers":{"host":"w.lirenyi.eu.org"}},"server":"2606:4700:99e9:3a7c:9afb:43b3:eb20:53f8","port":"443","uuid":"a83bf078-36ca-40a1-b958-40a3a10c92b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -92,7 +91,6 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - vmess+ws+tls
       - hax1
       - hax
       - koyeb
@@ -116,7 +114,6 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - vmess+ws+tls
       - hax1
       - hax
       - koyeb
@@ -139,7 +136,6 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - vmess+ws+tls
       - hax1
       - hax
       - koyeb
@@ -162,7 +158,6 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - vmess+ws+tls
       - hax1
       - hax
       - koyeb
