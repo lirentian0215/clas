@@ -57,8 +57,14 @@ proxies:
     obfs-opts:
         mode: tls
         host: www.microsoft.com  
-  - {"type":"vmess","name":"DO","ws-opts":{"path":"/u/opentunnel.net-belok","headers":{"host":"sgv-3.openv2ray.com"}},"server":"172.64.153.66","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Biznet","ws-opts":{"path":"/u/opentunnel.net-belok","headers":{"host":"idv-2.openv2ray.com"}},"server":"2606:4700:99e2:e0b6:5cf4:a27f:52b5:58dd","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws","tls":true}
+  - name: tj1
+    type: trojan
+    server: 34.80.239.195 
+    port: 31184 
+    password: FCBBGRDe  
+    udp: true
+    sni: sggks.com
+    skip-cert-verify: false
   - {"type":"vmess","name":"tomato1","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.145.2","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"tomato4","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.156.47","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"tomato9","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.153.66","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -82,8 +88,7 @@ proxy-groups:
       - 🔮 负载均衡
       - JP
       - HK
-      - DO
-      - Biznet
+      - tj1
       - tomato1
       - tomato4
       - tomato9
@@ -105,8 +110,7 @@ proxy-groups:
     proxies:
       - JP
       - HK
-      - DO
-      - Biznet
+      - tj1
       - tomato1
       - tomato4
       - tomato9
@@ -127,8 +131,7 @@ proxy-groups:
     proxies:
       - JP
       - HK
-      - DO
-      - Biznet
+      - tj1
       - tomato1
       - tomato4
       - tomato9
@@ -149,8 +152,7 @@ proxy-groups:
     proxies:
       - JP
       - HK
-      - DO
-      - Biznet
+      - tj1
       - tomato1
       - tomato4
       - tomato9
@@ -185,8 +187,7 @@ proxy-groups:
       - 🔮 负载均衡
       - JP
       - HK
-      - DO
-      - Biznet
+      - tj1
       - tomato1
       - tomato4
       - tomato9
