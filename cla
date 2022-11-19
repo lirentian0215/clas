@@ -73,11 +73,7 @@ proxies:
   - {"type":"vmess","name":"Youtube4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9ad3:3c9b:7dd7:77c6:eac8:7b54","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"2222","server":"jpp.samvpn.xyz","port":443,"password":"Sam123321","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"woiden1","ws-opts":{"path":"/","headers":{"host":"w.lirenyi.eu.org"}},"server":"2606:4700:99e9:3a7c:9afb:43b3:eb20:53f8","port":"443","uuid":"a83bf078-36ca-40a1-b958-40a3a10c92b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"hax.lirenyi.eu.org"}},"server":"2606:4700:9c62:92e7:fede:3e56:5381:805a","port":"443","uuid":"9042f7b9-9caf-4c57-a10e-2f40b849b594","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"wo.lirenyi.eu.org"}},"server":"2606:4700:90c1:ef7d:effd:33df:59c2:466f","port":"443","uuid":"30b5e219-fe33-48d5-bead-dffbb8d7f5c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"euserv","ws-opts":{"path":"/","headers":{"host":"li.lirentian.eu.org"}},"server":"2606:4700:8ca9:f541:9fe6:7844:5b18:7671","port":"443","uuid":"56e3832f-ee1b-45b9-e73e-96ae6fef166b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"h.lirenyi.eu.org"}},"server":"2606:4700:8ca8:1662:bc42:796:d6b9:89af","port":"443","uuid":"7af35bbd-7b72-425f-d6aa-4e82d2e37fb7","alterId":"0","cipher":"auto","network":"ws","tls":true}
  
 proxy-groups:
   - name: 🚀 节点选择
@@ -96,12 +92,8 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - hax1
-      - hax
       - koyeb
-      - woiden1
       - euserv
-      - woiden
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -118,12 +110,8 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - hax1
-      - hax
       - koyeb
-      - woiden1
       - euserv
-      - woiden
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -139,12 +127,8 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - hax1
-      - hax
       - koyeb
-      - woiden1
       - euserv
-      - woiden
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -160,12 +144,8 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - hax1
-      - hax
       - koyeb
-      - woiden1
       - euserv
-      - woiden
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -195,12 +175,8 @@ proxy-groups:
       - Youtube
       - Youtube4
       - 2222
-      - hax1
-      - hax
       - koyeb
-      - woiden1
       - euserv
-      - woiden
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
