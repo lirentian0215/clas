@@ -44,37 +44,28 @@ proxies:
   - name: HK
     type: snell
     server: 2.58.64.238
-    port: 31206
-    psk: 3dEH2FpXEjpwQxMpRWzuoincS33Bv3z
+    port: 46094
+    psk: c72444
     obfs-opts:
         mode: tls
         host: www.microsoft.com
-  - name: JP
+  - name: JP-IIJ
     type: snell
-    server: 13.114.34.24
-    port: 47002
-    psk: cloud724
+    server: 167.88.185.74
+    port: 47892
+    psk: c72444
     obfs-opts:
         mode: tls
-        host: www.microsoft.com  
-  - name: tj1
-    type: trojan
-    server: 34.80.239.195 
-    port: 31184 
-    password: FCBBGRDe  
-    udp: true
-    sni: sggks.com
-    skip-cert-verify: false
-  - {"type":"vmess","name":"tomato1","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.145.2","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"tomato4","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.156.47","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"tomato9","ws-opts":{"path":"/","headers":{"host":"xui.mycf.ml"}},"server":"172.64.153.66","port":"2083","uuid":"8a21b84d-183e-450d-ec82-8d45855d8180","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Youtube2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9ad7:1a06:6fec:534a:17f2:b851","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Youtube","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9649:e61c:7320:cf96:39b:3171","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Youtube4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"2606:4700:9ad3:3c9b:7dd7:77c6:eac8:7b54","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"2222","server":"jpp.samvpn.xyz","port":443,"password":"Sam123321","udp":true,"skip-cert-verify":true}
+        host: www.microsoft.com
+  - name: US
+    type: snell
+    server: 154.29.134.153
+    port: 26467
+    psk: c72444
+    obfs-opts:
+        mode: tls
+        host: www.microsoft.com
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"euserv","ws-opts":{"path":"/","headers":{"host":"li.lirentian.eu.org"}},"server":"2606:4700:8ca9:f541:9fe6:7844:5b18:7671","port":"443","uuid":"56e3832f-ee1b-45b9-e73e-96ae6fef166b","alterId":"0","cipher":"auto","network":"ws","tls":true}
- 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -82,70 +73,38 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - JP
       - HK
-      - tj1
-      - tomato1
-      - tomato4
-      - tomato9
-      - Youtube2
-      - Youtube
-      - Youtube4
-      - 2222
+      - JP-IIJ
+      - US
       - koyeb
-      - euserv
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - JP
       - HK
-      - tj1
-      - tomato1
-      - tomato4
-      - tomato9
-      - Youtube2
-      - Youtube
-      - Youtube4
-      - 2222
+      - JP-IIJ
+      - US
       - koyeb
-      - euserv
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - JP
       - HK
-      - tj1
-      - tomato1
-      - tomato4
-      - tomato9
-      - Youtube2
-      - Youtube
-      - Youtube4
-      - 2222
+      - JP-IIJ
+      - US
       - koyeb
-      - euserv
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - JP
       - HK
-      - tj1
-      - tomato1
-      - tomato4
-      - tomato9
-      - Youtube2
-      - Youtube
-      - Youtube4
-      - 2222
+      - JP-IIJ
+      - US
       - koyeb
-      - euserv
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,18 +124,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - JP
       - HK
-      - tj1
-      - tomato1
-      - tomato4
-      - tomato9
-      - Youtube2
-      - Youtube
-      - Youtube4
-      - 2222
+      - JP-IIJ
+      - US
       - koyeb
-      - euserv
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
