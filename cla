@@ -59,12 +59,21 @@ proxies:
         host: www.microsoft.com
   - name: US
     type: snell
-    server: 154.29.134.153
-    port: 26467
+    server: 154.29.134.6
+    port: 35607
     psk: c72444
     obfs-opts:
         mode: tls
         host: www.microsoft.com
+  - name: JP
+    type: snell
+    server: 13.231.4.230
+    port: 80
+    psk: 72444
+    obfs-opts:
+        mode: http
+        host: www.microsoft.com
+  - {"type":"vmess","name":"hicairo.com_2","ws-opts":{"path":"/vmess","headers":{"host":"v2rayN.lirentian0215.repl.co"}},"server":"v2rayN.lirentian0215.repl.co","port":"443","uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -76,6 +85,8 @@ proxy-groups:
       - HK
       - JP-IIJ
       - US
+      - JP
+      - hicairo.com_2
       - koyeb
   - name: ♻️ 自动选择
     type: url-test
@@ -86,6 +97,8 @@ proxy-groups:
       - HK
       - JP-IIJ
       - US
+      - JP
+      - hicairo.com_2
       - koyeb
   - name: 🔯 故障转移
     type: fallback
@@ -95,6 +108,8 @@ proxy-groups:
       - HK
       - JP-IIJ
       - US
+      - JP
+      - hicairo.com_2
       - koyeb
   - name: 🔮 负载均衡
     type: load-balance
@@ -104,6 +119,8 @@ proxy-groups:
       - HK
       - JP-IIJ
       - US
+      - JP
+      - hicairo.com_2
       - koyeb
   - name: 🎯 全球直连
     type: select
@@ -127,6 +144,8 @@ proxy-groups:
       - HK
       - JP-IIJ
       - US
+      - JP
+      - hicairo.com_2
       - koyeb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
