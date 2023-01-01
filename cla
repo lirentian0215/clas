@@ -82,8 +82,6 @@ proxies:
   - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"realistic-charging-mystery-light.trycloudflare.com"}},"server":"104.16.60.220","port":"443","uuid":"d6a55d94-58a7-402b-8814-9ac40cf0160b","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hicairo.com4","ws-opts":{"path":"/vmess","headers":{"host":"v2rayN.lirentian0215.repl.co"}},"server":"v2rayN.lirentian0215.repl.co","port":"443","uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"us1","server":"us-trojan.bonds.id","port":443,"password":"958130c0-75f5-11ed-a4a1-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id","network":"tcp"}
-proxy-groups:
-  - { name: "Load", type: load-balance, proxies: ['hicairo.com_1', 'hicairo.com_2','hicairo.com_1', 'woiden80','hax80', 'hax','hicairo.com_3', 'woiden','hicairo.com_4', 'us'], url: 'http://www.gstatic.com/generate_204', interval: 150, strategy: round-robin }
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
