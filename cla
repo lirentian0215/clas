@@ -103,7 +103,6 @@ proxy-groups:
       - woiden
       - hicairo.com4
       - us1
-      - hicairo.com_2
       - koyeb
   - name: ♻️ 自动选择
     type: url-test
@@ -124,7 +123,6 @@ proxy-groups:
       - woiden
       - hicairo.com4
       - us1
-      - hicairo.com_2
       - koyeb
   - name: 🔯 故障转移
     type: fallback
@@ -144,7 +142,6 @@ proxy-groups:
       - woiden
       - hicairo.com4
       - us1
-      - hicairo.com_2
       - koyeb
   - name: 🔮 负载均衡
     type: load-balance
@@ -164,7 +161,6 @@ proxy-groups:
       - woiden
       - hicairo.com4
       - us1
-      - hicairo.com_2
       - koyeb
   - name: 🎯 全球直连
     type: select
@@ -198,7 +194,6 @@ proxy-groups:
       - woiden
       - hicairo.com4
       - us1
-      - hicairo.com_2
       - koyeb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
