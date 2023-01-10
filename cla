@@ -73,22 +73,27 @@ proxies:
     obfs-opts:
         mode: http
         host: www.microsoft.com
-  - {"type":"vless","name":"hicairo.com6","server":"v2rayn.lirenyi.repl.co","port":443,"uuid":"b34dcb19-4ac3-4d0b-797f-4add026af6c6","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2rayN.lirenyi.repl.co","ws-opts":{"path":"/vless","headers":{"host":"v2rayN.lirenyi.repl.co"}}}
-  - {"type":"vmess","name":"hicairo.com5","ws-opts":{"path":"/vmess","headers":{"host":"v2rayN.lirenyi.repl.co"}},"server":"v2rayN.lirenyi.repl.co","port":"443","uuid":"b34dcb19-4ac3-4d0b-797f-4add026af6c6","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"hicairo.com2","server":"v2rayn.lirentian0215.repl.co","port":443,"uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2rayN.lirentian0215.repl.co","ws-opts":{"path":"/vless","headers":{"host":"v2rayN.lirentian0215.repl.co"}}}
+  - {"type":"vless","name":"deno1","server":"lirenyi2022-edgetunnel.deno.dev","port":443,"uuid":"c9d4367b-d78a-467a-971e-025462117299","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"deno","server":"quick-fox-58-vsy5eerh0g60.deno.dev","port":443,"uuid":"a8188259-2fd5-4209-a9ce-e22b28534529","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"quick-fox-58-vsy5eerh0g60.deno.dev","ws-opts":{"path":"/","headers":{"host":"quick-fox-58-vsy5eerh0g60.deno.dev"}}}
   - {"type":"vmess","name":"doprax180","ws-opts":{"path":"/","headers":{"host":"coal-audio-wheat-sorry.trycloudflare.com"}},"server":"104.17.214.1","port":"80","uuid":"7eed2eab-71e2-4171-9612-5054cfba6268","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"hicairo.com2","server":"v2rayn.lirentian0215.repl.co","port":443,"uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2rayN.lirentian0215.repl.co","ws-opts":{"path":"/vless","headers":{"host":"v2rayN.lirentian0215.repl.co"}}}
+  - {"type":"vless","name":"hicairo.com3","server":"v2rayN.lirentian0215.repl.co","port":443,"uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2rayN.lirentian0215.repl.co","ws-opts":{"path":"/vless","headers":{"host":"v2rayN.lirentian0215.repl.co"}}}
+  - {"type":"vmess","name":"hax80","ws-opts":{"path":"/","headers":{"host":"thinking-board-gains-moses.trycloudflare.com"}},"server":"104.16.60.220","port":"80","uuid":"aafa4040-18ef-4099-8c48-e7868dc8503b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"patr1","server":"104.21.224.27","port":443,"uuid":"c9d4367b-d78a-467a-971e-025462117299","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"80-93bd77d1a26d4093a43d7429dad5f3e5.patr.cloud","ws-opts":{"path":"/vless","headers":{"host":"80-93bd77d1a26d4093a43d7429dad5f3e5.patr.cloud"}}}
+  - {"type":"vless","name":"patr","server":"104.21.224.27","port":443,"uuid":"9ab9296a-65db-4417-89af-f355206645eb","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"80-75ab2d6b43ee422895d56b4e42186ddd.patr.cloud","ws-opts":{"path":"/vless","headers":{"host":"80-75ab2d6b43ee422895d56b4e42186ddd.patr.cloud"}}}
+  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"thinking-board-gains-moses.trycloudflare.com"}},"server":"104.21.224.27","port":"443","uuid":"aafa4040-18ef-4099-8c48-e7868dc8503b","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"hicairo.com4","ws-opts":{"path":"/vmess","headers":{"host":"v2rayN.lirentian0215.repl.co"}},"server":"v2rayN.lirentian0215.repl.co","port":"443","uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"woiden80","ws-opts":{"path":"/","headers":{"host":"realistic-charging-mystery-light.trycloudflare.com"}},"server":"104.21.224.27","port":"80","uuid":"d6a55d94-58a7-402b-8814-9ac40cf0160b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"invision-seas-fifteen-production.trycloudflare.com"}},"server":"[2606:4700:8396:9dce:949a:a50b:6bb0:7f4a]","port":"443","uuid":"fc662cb8-26cd-4a75-b65c-629b49243f40","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"doprax","ws-opts":{"path":"/","headers":{"host":"hired-orders-gaming-canyon.trycloudflare.com"}},"server":"172.67.43.86","port":"443","uuid":"fd90c318-2e6e-4e46-b9af-e507203491cd","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"doprax1","ws-opts":{"path":"/","headers":{"host":"coal-audio-wheat-sorry.trycloudflare.com"}},"server":"104.25.242.113","port":"443","uuid":"7eed2eab-71e2-4171-9612-5054cfba6268","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"doprax80","ws-opts":{"path":"/","headers":{"host":"hired-orders-gaming-canyon.trycloudflare.com"}},"server":"172.67.168.191","port":"80","uuid":"fd90c318-2e6e-4e46-b9af-e507203491cd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"hicairo.com1","ws-opts":{"path":"/vmess","headers":{"host":"v2rayN.lirentian0215.repl.co"}},"server":"v2rayN.lirentian0215.repl.co","port":"443","uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"doprax280","ws-opts":{"path":"/","headers":{"host":"billy-ultram-rachel-dna.trycloudflare.com"}},"server":"104.25.254.94","port":"80","uuid":"b9c1c7d6-f279-4d0e-82c4-3c6276611ea2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"hax180","ws-opts":{"path":"/","headers":{"host":"cyprus-reno-vitamin-poster.trycloudflare.com"}},"server":"[2606:4700:8396:9dce:949a:a50b:6bb0:7f4a]","port":"80","uuid":"272dba85-c7fb-4e1b-b2fe-c3fa29a05e69","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"doprax280","ws-opts":{"path":"/","headers":{"host":"billy-ultram-rachel-dna.trycloudflare.com"}},"server":"[2606:4700:839c:db1b:9cd0:8a09:2d9d:3f4c]","port":"80","uuid":"b9c1c7d6-f279-4d0e-82c4-3c6276611ea2","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"doprax2","ws-opts":{"path":"/","headers":{"host":"billy-ultram-rachel-dna.trycloudflare.com"}},"server":"172.67.167.136","port":"443","uuid":"b9c1c7d6-f279-4d0e-82c4-3c6276611ea2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"hicairo.com3","server":"v2rayN.lirentian0215.repl.co","port":443,"uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"v2rayN.lirentian0215.repl.co","ws-opts":{"path":"/vless","headers":{"host":"v2rayN.lirentian0215.repl.co"}}}
-  - {"type":"vmess","name":"woiden","ws-opts":{"path":"/","headers":{"host":"realistic-charging-mystery-light.trycloudflare.com"}},"server":"104.16.60.220","port":"443","uuid":"d6a55d94-58a7-402b-8814-9ac40cf0160b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"hax80","ws-opts":{"path":"/","headers":{"host":"referring-bought-fifth-protest.trycloudflare.com"}},"server":"104.16.60.220","port":"80","uuid":"f585f692-cc40-417f-856a-9c8ff072095f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"hax","ws-opts":{"path":"/","headers":{"host":"referring-bought-fifth-protest.trycloudflare.com"}},"server":"104.25.251.106","port":"443","uuid":"f585f692-cc40-417f-856a-9c8ff072095f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"woiden80","ws-opts":{"path":"/","headers":{"host":"invision-seas-fifteen-production.trycloudflare.com"}},"server":"[2606:4700:8396:9dce:949a:a50b:6bb0:7f4a]","port":"80","uuid":"fc662cb8-26cd-4a75-b65c-629b49243f40","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"hax1","ws-opts":{"path":"/","headers":{"host":"cyprus-reno-vitamin-poster.trycloudflare.com"}},"server":"[2606:4700:839c:db1b:9cd0:8a09:2d9d:3f4c]","port":"443","uuid":"272dba85-c7fb-4e1b-b2fe-c3fa29a05e69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"hicairo.com1","ws-opts":{"path":"/vmess","headers":{"host":"v2rayN.lirentian0215.repl.co"}},"server":"v2rayN.lirentian0215.repl.co","port":"443","uuid":"12eb9ff5-597a-326b-0e65-0b716d44d684","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"koyeb2","ws-opts":{"path":"/vmess","headers":{"host":"v2r-lirentian0215.koyeb.app"}},"server":"104.17.214.1","port":"443","uuid":"4608ef10-2521-4917-8bda-5ff5b15c9f2e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"koyeb","ws-opts":{"path":"/vmess","headers":{"host":"lirendian-lirentian0215.koyeb.app"}},"server":"2606:4700:90c2:b280:34f3:4ee2:265e:c3c6","port":"443","uuid":"225601bb-e174-4810-9828-8d50cf8ef3f9","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -101,22 +106,27 @@ proxy-groups:
       - JP-IIJ
       - US
       - JP
-      - hicairo.com6
-      - hicairo.com5
-      - hicairo.com2
+      - deno1
+      - deno
       - doprax180
+      - hicairo.com2
+      - hicairo.com3
+      - hax80
+      - patr1
+      - patr
+      - hax
       - hicairo.com4
-      - woiden80
+      - woiden
       - doprax
       - doprax1
       - doprax80
-      - hicairo.com1
+      - hax180
       - doprax280
       - doprax2
-      - hicairo.com3
-      - woiden
-      - hax80
-      - hax
+      - woiden80
+      - hax1
+      - hicairo.com1
+      - koyeb2
       - koyeb
   - name: ♻️ 自动选择
     type: url-test
@@ -128,22 +138,27 @@ proxy-groups:
       - JP-IIJ
       - US
       - JP
-      - hicairo.com6
-      - hicairo.com5
-      - hicairo.com2
+      - deno1
+      - deno
       - doprax180
+      - hicairo.com2
+      - hicairo.com3
+      - hax80
+      - patr1
+      - patr
+      - hax
       - hicairo.com4
-      - woiden80
+      - woiden
       - doprax
       - doprax1
       - doprax80
-      - hicairo.com1
+      - hax180
       - doprax280
       - doprax2
-      - hicairo.com3
-      - woiden
-      - hax80
-      - hax
+      - woiden80
+      - hax1
+      - hicairo.com1
+      - koyeb2
       - koyeb
   - name: 🔯 故障转移
     type: fallback
@@ -154,22 +169,27 @@ proxy-groups:
       - JP-IIJ
       - US
       - JP
-      - hicairo.com6
-      - hicairo.com5
-      - hicairo.com2
+      - deno1
+      - deno
       - doprax180
+      - hicairo.com2
+      - hicairo.com3
+      - hax80
+      - patr1
+      - patr
+      - hax
       - hicairo.com4
-      - woiden80
+      - woiden
       - doprax
       - doprax1
       - doprax80
-      - hicairo.com1
+      - hax180
       - doprax280
       - doprax2
-      - hicairo.com3
-      - woiden
-      - hax80
-      - hax
+      - woiden80
+      - hax1
+      - hicairo.com1
+      - koyeb2
       - koyeb
   - name: 🔮 负载均衡
     type: load-balance
@@ -180,22 +200,27 @@ proxy-groups:
       - JP-IIJ
       - US
       - JP
-      - hicairo.com6
-      - hicairo.com5
-      - hicairo.com2
+      - deno1
+      - deno
       - doprax180
+      - hicairo.com2
+      - hicairo.com3
+      - hax80
+      - patr1
+      - patr
+      - hax
       - hicairo.com4
-      - woiden80
+      - woiden
       - doprax
       - doprax1
       - doprax80
-      - hicairo.com1
+      - hax180
       - doprax280
       - doprax2
-      - hicairo.com3
-      - woiden
-      - hax80
-      - hax
+      - woiden80
+      - hax1
+      - hicairo.com1
+      - koyeb2
       - koyeb
   - name: 🎯 全球直连
     type: select
@@ -220,22 +245,27 @@ proxy-groups:
       - JP-IIJ
       - US
       - JP
-      - hicairo.com6
-      - hicairo.com5
-      - hicairo.com2
+      - deno1
+      - deno
       - doprax180
+      - hicairo.com2
+      - hicairo.com3
+      - hax80
+      - patr1
+      - patr
+      - hax
       - hicairo.com4
-      - woiden80
+      - woiden
       - doprax
       - doprax1
       - doprax80
-      - hicairo.com1
+      - hax180
       - doprax280
       - doprax2
-      - hicairo.com3
-      - woiden
-      - hax80
-      - hax
+      - woiden80
+      - hax1
+      - hicairo.com1
+      - koyeb2
       - koyeb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
